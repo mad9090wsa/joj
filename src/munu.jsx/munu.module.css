@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+/* loga -------------------------------------------------*/
+
+
+/* loga--------------------------------------------------------- */
+/* list--------------------------- */
+.munu{
+    width: 507px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.munu >li{
+    display: inline-block;
+}
+.munu > li > a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+/* navy blue */
+
+color: #18216D;
+
+}
+/* list--------------------------- */
+/* buger------------------------------------------ */
+
+
+/* buger------------------------------------------ */
+@media (max-width:375px){
+    /* list--------------------------- */
+    .munu{
+       position: absolute;
+       padding-top: 40px;
+       padding-left: 30%;
+       top: -400px;
+       width: 90%;
+       height: 400px;
+       display: flex;
+       flex-direction: column;
+       justify-content:space-evenly;
+       transition: all 1s;
+       background-color: rgba(0, 0, 255, 0.212);
+       z-index: 10;
+       
+         
+    }
+    .munu > li{
+        width: 100%;
+        text-align: right;
+        display: block;
+    }
+        .munu >li >a{ 
+             display: block;
+             padding: 10px 5px;
+             width: 100%;
+             height: 100%;
+             font-size: 30px;
+             border: 1px solid rgb(68, 68, 158);
+            }
+    .aaa{
+        transform: translate(0px,400px);
+    }
+/* list--------------------------- */
+/* buger------------------------------------------ */
+.click_T {
+    transition: all ease 0.3s;
+width: 40px;
+height: 40px;
+z-index: 19;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.click_T .span1{
+    z-index: 19;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    background: #24478d;
+
+
+}
+
+.click_X{
+    transition:all ease 0.6s;
+    z-index: 19;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.click_X .span1{
+    z-index: 19;
+    height: 2.31px;
+    width: 100%;
+    background: #273551;
+}
+.click_X .span2{
+    z-index: 19;
+    height: 2.31px;
+    width: 60%;
+    background: #273551;
+}
+/* buger------------------------------------------ */
+
+}

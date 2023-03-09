@@ -1,0 +1,24 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+.incon-bug{
+    display: none;
+cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
+/* ssssssssssssssssssssssssss */
+@media (max-width:375px){
+    .incon-bug{
+        width: 28px;
+        height: 12.2px;
+        display: block;    
+    }
+}
