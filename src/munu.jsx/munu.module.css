@@ -2,18 +2,45 @@
 .container {
     width: 90%;
     margin: 0 auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px 0px;
 
 }
 /* loga -------------------------------------------------*/
 
+.logaimgada{
+display: flex;
+gap: 7px;
+align-items: center;
+}
+.rasm__loga{
+    width: 32px;
+height: 32px;
+}
+.loga_text{
 
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #18216D;
+}
 /* loga--------------------------------------------------------- */
 /* list--------------------------- */
 .munu{
-    width: 507px;
+     /* transform: translate(-108px,0px); */
+    margin-right: 288px;
+    width: 447px;
     display: flex;
     justify-content: space-between;
-
+background-color: red;
 }
 .munu >li{
     display: inline-block;
@@ -32,30 +59,72 @@ line-height: 20px;
 color: #18216D;
 
 }
+.li_bnt{
+  display: none;
+}
 /* list--------------------------- */
 /* buger------------------------------------------ */
-
+.inconbug{
+    display: none;
+    cursor: pointer;
+}
 
 /* buger------------------------------------------ */
+/* bun----------------------------------------- */
+.bun__ada{
+    display: block;
+}
+/* bun----------------------------------------- */
 @media (max-width:375px){
+    .container {
+        width: 90%;
+        margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5px 0px;
+    
+    }
+    /* loga -------------------------------------------------*/
+
+.logaimgada{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    }
+    .rasm__loga{
+        width: 25px;
+        height: 25px;
+    }
+    .loga_text{
+        font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+
+
+    text-align: center;
+    
+    color: #18216D;
+    }
+    /* loga--------------------------------------------------------- */
     /* list--------------------------- */
     .munu{
        position: absolute;
-       padding-top: 40px;
-       padding-left: 30%;
-       top: -400px;
-       width: 90%;
+       padding-top: 30px;
+       padding-left: 25%;
+       top: -480px;
+       width: 95%;
        height: 400px;
        display: flex;
        flex-direction: column;
        justify-content:space-evenly;
-       transition: all 1s;
        background-color: rgba(0, 0, 255, 0.212);
        z-index: 10;
-       
-         
+       border-radius: 0px 0px 20px 20px;
+       transition: all 0.2s;
     }
     .munu > li{
+        padding: 0px 5px;
         width: 100%;
         text-align: right;
         display: block;
@@ -66,13 +135,63 @@ color: #18216D;
              width: 100%;
              height: 100%;
              font-size: 30px;
+             border-radius: 5px;
              border: 1px solid rgb(68, 68, 158);
             }
+            .li_bnt{
+                display: block;
+                 position: absolute;
+                  left: 5px;
+                  top: 57px;
+                width: 90px;
+                height: 79%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+              }
+              .sub_bnt{
+                width: 100%;
+                height: 10%;
+                border: 2px solid #24478d;
+                border-radius: 8px;
+                background-color: transparent;
+                color: #24478d;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+              }
+              .sub_text{
+                border-radius: 10px;
+                width: 90%;
+                height: 20%;
+                border: 1px solid #24478d;
+  
+              }
+              .sub_text > a{
+                display: block;
+                font-size: 18px;
+                width: 100%;
+                height: 100%;
+                color: #24478d;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+               }
     .aaa{
-        transform: translate(0px,400px);
+        transform: translate(0px,480px);
     }
 /* list--------------------------- */
 /* buger------------------------------------------ */
+.inconbug{
+    width: 28px;
+    height: 12.2px;
+    display: block;    
+}
 .click_T {
     transition: all ease 0.3s;
 width: 40px;
@@ -82,8 +201,10 @@ z-index: 19;
    align-items: center;
    justify-content: center;
 
+
 }
 .click_T .span1{
+    border-radius: 10px;
     z-index: 19;
     width: 100%;
     height: 100%;
@@ -121,5 +242,9 @@ z-index: 19;
     background: #273551;
 }
 /* buger------------------------------------------ */
-
+/* bun----------------------------------------- */
+.bun__ada{
+    display: none;
+}
+/* bun----------------------------------------- */
 }
