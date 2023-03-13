@@ -105,6 +105,7 @@ color: #18216D;
 /* bun----------------------------------------- */
 /* ------------------------ */
 @media(max-width:912px){
+
     .logaimgada{
         display: flex;
         gap: 5px;
@@ -205,7 +206,7 @@ color: #18216D;
      align-items: center;
      justify-content: space-between;
      padding: 5px 0px;
-    
+
     }
     /* loga -------------------------------------------------*/
 
@@ -241,7 +242,7 @@ color: #18216D;
        display: flex;
        flex-direction: column;
        justify-content:space-evenly;
-       background-color: rgba(0, 0, 255, 0.212);
+       background-color: rgba(14, 45, 216, 0.616);
        z-index: 10;
        border-radius: 0px 0px 20px 20px;
        transition: all 0.2s;
@@ -259,7 +260,8 @@ color: #18216D;
              height: 100%;
              font-size: 30px;
              border-radius: 5px;
-             border: 1px solid rgb(68, 68, 158);
+             border: 1px solid rgb(0, 255, 255);
+             color: rgb(0, 255, 255);
             }
             .li_bnt{
                 display: block;
@@ -276,20 +278,20 @@ color: #18216D;
               .sub_bnt{
                 width: 85%;
                 height: 20%;
-                border: 2px solid #24478d;
+                border: 1px solid rgb(0, 255, 255);
                 border-radius: 8px;
                 background-color: transparent;
-                color: #24478d;
+                color: rgb(0, 255, 255);
                 font-family: 'Inter';
                 font-style: normal;
-                font-weight: 1000;
+                font-weight: 500;
                 font-size: 15px;
               }
               .sub_text{
                 border-radius: 10px;
                 width: 90%;
                 height: 20%;
-                border: 1px solid #24478d;
+                border: 1px solid rgb(0, 255, 255);
   
               }
               .sub_text > a{
@@ -297,7 +299,7 @@ color: #18216D;
                 font-size: 18px;
                 width: 100%;
                 height: 100%;
-                color: #24478d;
+                color: rgb(0, 255, 255);
                 display: flex;
                 align-items: center;
                 justify-content: center;

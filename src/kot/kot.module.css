@@ -1,34 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
 .ada{
 }
 .container{
     position: relative;
     height: 398.35px;
-    width: 80%;
+    width: 85%;
     margin: 25px auto;
-    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+/* text------------------------------------------------------------------------------ */
 .text__ada2{
-    z-index: 90;
+ display: flex;
+ flex-direction: column;
+}
+.text__sub__text{
+    width: 488px;
+    height: 110px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 50px;
+/* or 125% */
+
+
+/* navy blue */
+
+color: #18216D
+}
+.text__sub__text_2{   
+    width: 410px;
+   height: 46px;
+margin-top: 16px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 22px;
+/* or 165% */
+
+
+/* navy blue */
+
+color: #18216D;
+}
+.bnt__sub{
+    margin-top: 20px;
+    width: 170px;
+height: 56px;
+    background: #00ECD0;
+border-radius: 6px;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+
+/* identical to box height */
+
+
+color: #18216D;
 }
 
+/* text------------------------------------------------------------------------------ */
 .img__ada2{
     position: absolute;
     right: 0%;
-    width: 666px;
-    height: 398.35px;
+    width: 646px;
+    height: 378.35px;
+
 
 }
+.img__ada3{
+    display: none;
+}
 @media(max-width:912px){
+    .container{
+        position: relative;
+        height: 398.35px;
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* text------------------------------------------------------------------------------ */
+    .text__ada2{
+     display: flex;
+     flex-direction: column;
+    }
+    .text__sub__text{
+        width: 400px;
+        height: auto;
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #18216D
+    }
+    .text__sub__text_2{  
+        width: 350px;
+       height: auto;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 17px;
+    color: #18216D;
+    }
+    .bnt__sub{
+        margin-top: 10px;
+        width: 120px;
+    height: 36px;
+        background: #00ECD0;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    
+    /* identical to box height */
+    
+    
+    color: #18216D;
+    }
+    
+    /* text------------------------------------------------------------------------------ */
+    .img__ada2{
+display: none;
+        position: absolute;
+        right: 0%;
+        width: 60%;
+        height: 80%
+    
+    
+    }
+    .img__ada3{
+        display: block;
+        width: 50%;
 
+    }
 }
 /* ---------------------- */
 @media (max-width:375px){
+    .container{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+/* text------------------------------------------------------------------------------ */
+.text__ada2{
 
-  .img__ada2{
-    width: 187px;
-    height: 200px;
-  }
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+   }
+   .text__sub__text{
+    width: 291px;
+    height: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 27px;
+    text-align: center;
+    color: #18216D;
+
+   }
+   .text__sub__text_2{ 
+    margin-top: 10px;
+    width: 280px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #18216D;
+   }
+   .bnt__sub{
+    display: block;
+    margin-top: 20px;
+       width: 120px;
+       height: 40px;
+       left: 128px;
+       top: 278px;
+       
+       /* #00ECD0 */
+       
+       background: #00ECD0;
+       border-radius: 6px;
+   }
+
+   /* text------------------------------------------------------------------------------ */
+   .img__ada2{
+    display: none;
+       position: absolute;
+       right: 0%;
+       width: 646px;
+       height: 378.35px;
+   
+   }
+   .img__ada3{
+
+    margin-top: 30px;
+    display: block;
+    width: 90%;
+}
 }
