@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import sss from './munu.module.css'
+import sss from './munu.module.css';
 import './munu.css';
 import img from "./Subtract.png";
 
@@ -36,6 +36,7 @@ function Add() {
 </div>{/* click-buger */}
 
 {/* buntun-navbar */}<div className={sss.bun__ada}>
+  <div>Sign in</div>
    <button>Downlaod</button>
 </div>{/* buntun-navbar */}
  

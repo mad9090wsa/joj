@@ -35,12 +35,12 @@ color: #18216D;
 /* loga--------------------------------------------------------- */
 /* list--------------------------- */
 .munu{
-     /* transform: translate(-108px,0px); */
-    margin-right: 288px;
-    width: 447px;
+     position: absolute;
+     left: 255px;
+    width: 407px;
     display: flex;
     justify-content: space-between;
-background-color: red;
+
 }
 .munu >li{
     display: inline-block;
@@ -73,8 +73,130 @@ color: #18216D;
 /* bun----------------------------------------- */
 .bun__ada{
     display: block;
+    display: flex;
+align-items: center;
+gap: 35px;
+    
+}
+.bun__ada > button{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height, or 118% */
+width: 116px;
+height: 42px;
+border: none;
+
+background: #18216D;
+border-radius: 6px;
+
+color: #FFFFFF
+}
+.bun__ada > div{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #18216D;
 }
 /* bun----------------------------------------- */
+/* ------------------------ */
+@media(max-width:912px){
+    .logaimgada{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        }
+        .rasm__loga{
+            width: 30px;
+        height: 30px;
+        }
+        .loga_text{
+        
+            font-family: 'Inter';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        /* identical to box height, or 100% */
+        
+        text-align: center;
+        
+        color: #0f1c8f;
+        }
+        /* loga--------------------------------------------------------- */
+        /* list--------------------------- */
+        .munu{
+            position: absolute;
+            width: 330px;
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        .munu >li{
+            display: inline-block;
+        }
+        .munu > li > a{
+            font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 111% */
+        
+        
+        /* navy blue */
+        
+        color: #18216D;
+        
+        }
+        .li_bnt{
+          display: none;
+        }
+        /* list--------------------------- */
+        /* buger------------------------------------------ */
+        .inconbug{
+            display: none;
+            cursor: pointer;
+        }
+        
+        /* buger------------------------------------------ */
+        /* bun----------------------------------------- */
+        .bun__ada{
+            display: block;
+            display: flex;
+        align-items: center;
+        gap: 25px;
+            
+        }
+        .bun__ada > button{
+            font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 118% */
+        width: 96px;
+        height: 32px;
+        border: none;
+        
+        background: #18216D;
+        border-radius: 6px;
+        
+        color: #FFFFFF
+        }
+        .bun__ada > div{
+            font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        color: #18216D;
+        }
+}
+/* ---------------------- */
 @media (max-width:375px){
     .container {
         width: 90%;
@@ -110,6 +232,7 @@ color: #18216D;
     /* list--------------------------- */
     .munu{
        position: absolute;
+       left: 5%;
        padding-top: 30px;
        padding-left: 25%;
        top: -480px;
@@ -151,15 +274,15 @@ color: #18216D;
                 flex-direction: column;
               }
               .sub_bnt{
-                width: 100%;
-                height: 10%;
+                width: 85%;
+                height: 20%;
                 border: 2px solid #24478d;
                 border-radius: 8px;
                 background-color: transparent;
                 color: #24478d;
                 font-family: 'Inter';
                 font-style: normal;
-                font-weight: 500;
+                font-weight: 1000;
                 font-size: 15px;
               }
               .sub_text{
