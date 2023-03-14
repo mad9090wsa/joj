@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
 .container {
-    width: 90%;
+    width: 1140px;
     margin: 0 auto;
  display: flex;
  align-items: center;
@@ -35,14 +35,11 @@ color: #18216D;
 /* loga--------------------------------------------------------- */
 /* list--------------------------- */
 .munu{
-     position: absolute;
-     left: 255px;
-    width: 407px;
-    display: flex;
-    justify-content: space-between;
-
+margin-right: 150px;
+    width: 427px;
 }
 .munu >li{
+    padding-left: 30px;
     display: inline-block;
 }
 .munu > li > a{
@@ -105,7 +102,15 @@ color: #18216D;
 /* bun----------------------------------------- */
 /* ------------------------ */
 @media(max-width:912px){
-
+    .container {
+        width: 90%;
+        margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 0px;
+    
+    }
     .logaimgada{
         display: flex;
         gap: 5px;
@@ -130,11 +135,8 @@ color: #18216D;
         /* loga--------------------------------------------------------- */
         /* list--------------------------- */
         .munu{
-            position: absolute;
-            width: 330px;
-            display: flex;
-            justify-content: space-between;
-        
+            width:auto;
+        display: flex;
         }
         .munu >li{
             display: inline-block;
@@ -169,7 +171,7 @@ color: #18216D;
             display: block;
             display: flex;
         align-items: center;
-        gap: 25px;
+        gap: 20px;
             
         }
         .bun__ada > button{
@@ -189,10 +191,11 @@ color: #18216D;
         color: #FFFFFF
         }
         .bun__ada > div{
+            width: 50px;
             font-family: 'Inter';
         font-style: normal;
         font-weight: 800;
-        font-size: 16px;
+        font-size: 1px;
         line-height: 20px;
         color: #18216D;
         }

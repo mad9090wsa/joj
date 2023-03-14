@@ -4,7 +4,7 @@
 .container{
     position: relative;
     height: 398.35px;
-    width: 85%;
+    width: 1040px;
     margin: 25px auto;
     display: flex;
     align-items: center;
@@ -80,7 +80,7 @@ color: #18216D;
     .container{
         position: relative;
         height: 398.35px;
-        width: 90%;
+        width: 85%;
         margin: 0px auto;
         display: flex;
         align-items: center;
@@ -149,10 +149,10 @@ display: none;
 /* ---------------------- */
 @media (max-width:375px){
     .container{
-        position: absolute;
+        position: relative;
         height: auto;
         width: 100%;
-        margin: 10px auto;
+        margin: 20px auto;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
