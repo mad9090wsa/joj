@@ -4,6 +4,7 @@ import Add from "./munu.jsx/munu";
 import Kot from "./kot/kot";
 import Ikki from "./ikki/ikki";
 import Rasm from "./rasm/rasm";
+import Text from "./TEXT/text";
 function App() {
   return(
     <>
@@ -11,7 +12,7 @@ function App() {
     <Kot/>
     <Ikki/>
     <Rasm/>
-
+    <Text/>
     </>
   )
   
