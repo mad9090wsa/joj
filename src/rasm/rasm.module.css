@@ -10,7 +10,7 @@
 @media(max-width:912px){
     .container{
         width: 85%;
-        margin: 10px auto;
+        margin: 0px auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -23,20 +23,33 @@
 }
 /* ssssssssssssssssssssssssssssssssssssss */
 @media(max-width:375px){
-    .kotrasm{
-        display: none;
-     }
+    .ada{
+        margin-top: -20px;
+    }
+     a:nth-child(5){display: none;} a:nth-child(6){display: none;}
     .container{
         width: 85%;
-        margin: -25px auto;
+        height: auto;
+        margin: 0px auto;
         display: flex;
-        justify-content: space-evenly;
-        background-color: rgb(12, 7, 7);
+        justify-content: space-between;
+      align-items: center;
+
     }
-    .container >a{width: 555px; background-color: aquamarine;}
-    .container > a > img{
-        width: 100%;
+    .container >a{
+        width: auto;
+        height: auto;
     }
+    .kkkk{
+        width: 69.71px;
+        height: 14.86px;
+
+    }
+   .kkk{
+        width: 59px;
+        height: 18px;
+    }
+
 
 
    
