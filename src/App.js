@@ -5,6 +5,7 @@ import Kot from "./kot/kot";
 import Ikki from "./ikki/ikki";
 import Rasm from "./rasm/rasm";
 import Text from "./TEXT/text";
+import Click from "./click/click";
 function App() {
   return(
     <>
@@ -13,6 +14,8 @@ function App() {
     <Ikki/>
     <Rasm/>
     <Text/>
+{/* sssssssssssss */}
+<Click/>
     </>
   )
   
