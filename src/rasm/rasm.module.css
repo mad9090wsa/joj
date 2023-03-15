@@ -2,9 +2,42 @@
 }
 .container{
     width: 1040px;
-    background-color: red;
-    margin: 0px auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+@media(max-width:912px){
+    .container{
+        width: 85%;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .container >a{width: 13.8%;}
+    .container > a > img{
+        width: 100%;
+    }
+}
+/* ssssssssssssssssssssssssssssssssssssss */
+@media(max-width:375px){
+    .kotrasm{
+        display: none;
+     }
+    .container{
+        width: 85%;
+        margin: -25px auto;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(12, 7, 7);
+    }
+    .container >a{width: 555px; background-color: aquamarine;}
+    .container > a > img{
+        width: 100%;
+    }
+
+
+   
 }
