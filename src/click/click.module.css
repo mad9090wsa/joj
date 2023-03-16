@@ -93,15 +93,20 @@ box-sizing: border-box;
 .sub_cart{
     width: 100%;
 height: 160px;
-
-background: #FFFFFF;
+padding: 30px 40px;
+background: #ffffff00;
 border-bottom: 1px solid #8d9194;
+display: flex;
+flex-direction: column;
 border-radius: 10px 10px 0px 0px;
 }
 .sub_cart_list{
     width: 100%;
-    padding: 20px 40px;
-    background-color: red;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
 }
 .list__ul{
     display: flex;
@@ -113,11 +118,94 @@ border-radius: 10px 10px 0px 0px;
     display: flex;
     align-items: center;
     gap: 12px;
-    background-color: #24252b;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+color: #18216D;
 }
 .list__ul >li>img{
-    width: 22px;
-height: 22.39px;
+    width: 24px;
+height: 24.39px;
+}
+.sub_cart_list > .sir2{
+    width: 181px;
+height: 52px;
+background: #005FEC;
+border-radius: 6px;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+color: #FFFFFF;
+}
+/* -------------- */
+.sir{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    /* identical to box height, or 141% */
+    
+    
+    /* navy blue */
+    
+    color: #18216D;
+    opacity: 0.5;
+}
+.sir23{
+    width: 181px;
+height: 52px;
+border-radius: 6px;
+border: none;
+background: #005eec63;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #18216D;
+}
+/* ------$$$$$$$$$$$$$$$$ */
+.sub_t1{
+width: auto;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 48px;
+color: #18216D;
+}
+.sub_t2{
+    height: 48px;
+    width: auto;
+    /* Text */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+
+/* navy blue */
+
+color: #18216D;
+}
+.sub_t2 >div{
+    color: 
+    #6D6D6D;
+    display: inline-block;
 }
 @media(max-width:912px){
     .ada{display: none;}
