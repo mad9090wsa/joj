@@ -6,12 +6,12 @@ function Click() {
   const [nav,setNav]= useState(true);
   const [nav2,setNav2]= useState(false);
   let a1 = ()=>{
-    setNav(!nav);
-    setNav2(!nav2);
+    setNav(true);
+    setNav2(false);
   };
   let a2 = ()=>{
-    setNav(!nav);
-    setNav2(!nav2);
+    setNav(false);
+    setNav2(true);
   };
   return (
 <header className={click.ada}>
@@ -32,8 +32,8 @@ platform considering all the requirements</div>
 <div className={click.cart_ada}>
   <div className={click.cart}>
           <div className={click.sub_cart}>
-            <div>ddd</div>
-            <div>ddd</div>
+          <div className={click.sub_t1}>Basic</div>
+              <div className={click.sub_t2}>Free</div>
           </div>
           <div className={click.sub_cart_list}>           
              <ul className={click.list__ul}>
@@ -71,8 +71,8 @@ platform considering all the requirements</div>
       {/* ----------- */}
     <div className={click.cart}>
            <div className={click.sub_cart}>
-            <div>ddd</div>
-            <div>ddd</div>
+           <div className={click.sub_t1}>Business</div>
+            <div className={click.sub_t2}>$99<div>/mo</div></div>
            </div>
            <div className={click.sub_cart_list}>
            <ul className={click.list__ul}>

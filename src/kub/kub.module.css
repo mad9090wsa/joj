@@ -1,0 +1,51 @@
+.container{
+    margin: 0 auto;
+    width: 1040px;
+}
+.ada{
+    margin-top: 100px;
+}
+.rasma{
+    position: relative;
+    width: 388.93px;
+height: 388.93px;
+border: 2px solid black;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.rasma > img{
+    width: 127.14px;
+height: 127.14px;
+position: absolute;
+
+}
+.rasma > img:nth-child(1){
+    left: 112.23px;
+    bottom: -72.14px;
+}
+.rasma > img:nth-child(2){
+    right: -57.32px;
+    top: 128.57px;
+
+}
+.rasma > img:nth-child(3){
+    top: -48.93px;
+    left: 111.43px;
+}
+.rasma > img:nth-child(4){
+    top: 119.29px;
+    left: -61.34px;
+}
+
+
+
+
+
+
+
+@media(max-width:912px){
+    .ada{display: none;}
+}
