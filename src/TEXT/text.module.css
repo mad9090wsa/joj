@@ -51,7 +51,7 @@ text-align: center;
 
 color: #18216D;
 }
-@media(max-width:912px){
+@media(max-width:912px) and (min-width:863px){
     .ada{
         margin-top: 40px;
        }

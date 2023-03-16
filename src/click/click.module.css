@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
+ul,ol{list-style: none;}
+.ada{margin-top: 90px;}
+.container{
+   margin: 0 auto;
+    width: 1040px;
+}
+.ku{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 272px;
+    height: 60px;
+    padding: 0 3px;
+    border-radius: 6px;
+    background: #005eec91;
+}
+.d1,.d2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 17px;
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 135px;
+height: 48px;
+color: #18216D;
+}
+
+.bac{
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #005FEC;
+}
+/* ssssssssssssss */
+.ada__text{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-between;
+gap: 20px;
+}
+.subtext1{
+    width: 457px;
+    height: 64px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    
+    /* navy blue */
+    
+    color: #18216D;
+}
+.subtext2{
+    width: 542px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #18216D;
+}
+/* ---------------------------------------------------------------- */
+.cart_ada{
+    margin-top: 80px;
+    width: 100%;
+    /* border: 1px dashed blue; */
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+.cart{
+    width: 355px;
+    height: 620px;
+    border: 1px solid #8d9194;
+border-radius: 10px;
+box-sizing: border-box;
+}
+.sub_cart{
+    width: 100%;
+height: 160px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #8d9194;
+border-radius: 10px 10px 0px 0px;
+}
+.sub_cart_list{
+    width: 100%;
+    padding: 20px 40px;
+    background-color: red;
+}
+.list__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.list__ul >li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #24252b;
+}
+.list__ul >li>img{
+    width: 22px;
+height: 22.39px;
+}
+@media(max-width:912px){
+    .ada{display: none;}
+}

@@ -101,7 +101,7 @@ color: #18216D;
 }
 /* bun----------------------------------------- */
 /* ------------------------ */
-@media(max-width:912px){
+@media(max-width:912px) and (min-width:863px){
     .container {
     
         width: 90%;

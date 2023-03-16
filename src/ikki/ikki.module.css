@@ -62,9 +62,8 @@ line-height: 28px;
 color: #18216D;
 }
 /* ddddddddddddddddddd */
-@media(max-width:912px){
+@media(max-width:912px) and (min-width:863px){
     .ada{
-
         padding-top:0px;
     }
     .container{
