@@ -1,10 +1,20 @@
-.container{
-    margin: 0 auto;
-    width: 1040px;
-}
 .ada{
-    margin-top: 100px;
+    margin-top: 70px;
+    background: #FAFAFA;
+   
 }
+.container{
+    margin: 0px auto;
+    width: 1040px;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
+
 .rasma{
     position: relative;
     width: 388.93px;
@@ -14,38 +24,189 @@ border-radius: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+animation-name: te;
+animation-duration: 55s;
+animation-timing-function:ease;
+animation-iteration-count:1;
+animation-delay:0s ;
+
 
 }
 .rasma > img{
-    width: 127.14px;
-height: 127.14px;
+    z-index: 5;
+    width: 117.14px;
+height: 117.14px;
 position: absolute;
+animation-name: tet;
+animation-duration: 55s;
+animation-timing-function:ease;
+animation-iteration-count: 1;
+animation-delay:0s ;
+
+border-radius: 100%;
 
 }
 .rasma > img:nth-child(1){
-    left: 112.23px;
-    bottom: -72.14px;
+    left: 122.23px;
+    bottom: -62.14px;
+
+
+
 }
 .rasma > img:nth-child(2){
-    right: -57.32px;
-    top: 128.57px;
+    right: -50.32px;
+    top: 110.57px;
+
 
 }
 .rasma > img:nth-child(3){
-    top: -48.93px;
-    left: 111.43px;
+    top: -40.93px;
+    left: 118.43px;
+
 }
 .rasma > img:nth-child(4){
-    top: 119.29px;
-    left: -61.34px;
+    top: 100.29px;
+    left: -51.34px;
+
 }
+/* @keyframes te{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes tet{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+} */
 
 
 
+.rasm__sub{
+    position: absolute;
+    z-index: 0px;
+    width: 229.82px;
+height: 229.82px;
+border: 1px solid black;
+border-radius:100% ;
+display: flex;
+align-items: center;
+justify-content: center;
+animation-name: subrasm;
+animation-duration: 55s;
+animation-timing-function:ease;
+animation-iteration-count: 1;
+animation-delay:0s ;
+
+}
+.rasm__sub > img{
+    position: absolute;
+    width: 100.43px;
+    height: 100.43px;
+    animation-name: subimg;
+animation-duration: 55s;
+animation-timing-function:ease;
+animation-iteration-count: 1;
+animation-delay:0s ;
+
+}
+/* @keyframes subrasm{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-720deg);
+    }
+}
+@keyframes subimg{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+.rasm__sub > img:nth-child(1){
+   bottom: -20px;
+   right: -20px;
+}
+.rasm__sub > img:nth-child(2){
+top:-6px;
+left: -10px;
+ }
+ .rasm__sub > img:nth-child(3){
+    top:-16px;
+    right: -12px;
+     }
+     .rasm__sub > img:nth-child(4){
+bottom: -20px;
+ left: -20px;
+         }
 
 
+         /* text */
+.text{
+
+width: 516px;
+height: 370px;
+display: flex;
+flex-direction: column;
+gap: 45px;
+}
+.sub__text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 48px;
+color: #18216D;
+}
+.sub__text2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text2222{
+    width: 614px;
+height: 176px;
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 39px;
+color: #18216D;
+
+opacity: 0.9;
+}
+.subsubtext{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 26px;
+color: #18216D;
+}
+.subsubtext > div{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
 
 
+/* navy blue */
+
+color: #18216D;
+opacity: 0.6;
+}
 @media(max-width:912px){
     .ada{display: none;}
 }
