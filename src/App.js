@@ -8,6 +8,7 @@ import Text from "./TEXT/text";
 // ----------
 import Click from "./click/click";
 import Kub from "./kub/kub";
+import The from "./the/the";
 function App() {
   return(
     <>
@@ -19,7 +20,7 @@ function App() {
 {/* sssssssssssss */}
 <Click/>
 <Kub/>
-dddd
+<The/>
     </>
   )
   

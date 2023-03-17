@@ -1,0 +1,41 @@
+.ada{
+    margin-top: 50px;
+   
+}
+.container{
+    margin: 0px auto;
+    width: 1040px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* -------------------------- */
+.loga{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loga > img{width: 158px;
+    height: 45px;}
+.loga_text{
+    width: 230px;
+
+height: 52px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #18216D;
+opacity: 0.9;
+}
+.loga_img{
+    display: flex;
+    gap: 12px;
+}
+.loga_img > img{
+    width: 100px;
+    height: 30px;
+}
+    /* --------------------------- */
