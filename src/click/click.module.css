@@ -12,8 +12,8 @@ ul,ol{list-style: none;}
     justify-content: space-between;
     gap: 5px;
     width: 272px;
-    height: 60px;
-    padding: 0 3px;
+    height: auto;
+    padding: 5px 10px;
     border-radius: 6px;
     background: #005eec91;
 }

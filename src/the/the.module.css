@@ -39,3 +39,241 @@ opacity: 0.9;
     height: 30px;
 }
     /* --------------------------- */
+    .ul_loga{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ul_loga>div{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height, or 118% */
+
+
+/* navy blue */
+
+color: #18216D;
+    }
+    .ul_loga > ul{
+       display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+       height: 200px;
+    }
+    .ul_loga > ul >li{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+/* or 250% */
+
+
+/* navy blue */
+
+color: #18216D;
+
+opacity: 0.9;
+    }
+    .ulsub{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ulsub >div{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height, or 118% */
+
+
+/* navy blue */
+
+color: #18216D;
+    }
+    .ulsub > ul{
+        display: flex;
+         flex-direction: column;
+        height: 200px;
+     }
+     .ulsub > ul >li{
+         font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 40px;
+ /* or 250% */
+ 
+ 
+ /* navy blue */
+ 
+ color: #18216D;
+ 
+ opacity: 0.9;
+     }
+     .thesub{
+    width: 1040px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+     }
+     .hr{
+        width: 100%;
+        opacity: 0.2;
+       border: 1px solid #18216D;
+     }
+     .subtext{
+        padding-top:30px ;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* navy blue */
+
+color: #18216D;
+
+opacity: 0.8;
+     }
+    @media(max-width:912px) and (min-width:863px){
+        .container{
+            margin: 0px auto;
+            width: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+             height: 200px;
+        }
+        /* ---------------- */
+        .loga{
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .loga > img{width: 100px;
+            height: 30px;}
+        .loga_text{
+            width: 200px;
+        
+        height: 32px;
+            font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #18216D;
+        opacity: 0.9;
+        }
+        .loga_img{
+            display: flex;
+            gap: 20px;
+        }
+        .loga_img > img{
+            width: 75px;
+            height: 26px;
+        }
+        .ul_loga{
+            display: none;
+        }
+        .ulsub{
+
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .ulsub >div{
+            font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #18216D;
+        }
+        .ulsub > ul{
+            display: flex;
+             flex-direction: column;
+            height: auto;
+         }
+         .ulsub > ul >li{
+             font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 24px;
+     /* or 250% */
+     
+     
+     /* navy blue */
+     
+     color: #18216D;
+     
+     opacity: 0.9;
+         }
+         .thesub{
+            width: 85%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+        
+             }
+             .hr{
+                width: 100%;
+                opacity: 0.2;
+               border: 1px solid #18216D;
+             }
+             .subtext{
+                padding-top:15px ;
+                font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 150% */
+        
+        
+        /* navy blue */
+        
+        color: #18216D;
+        
+             }}
+/* ------------------------- */
+
+
+    
+
+    /* -------------------------- */
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ------------------------------ */
+    @media(max-width:863px){
+        .ada{
+            display: none;
+        }
+    }
