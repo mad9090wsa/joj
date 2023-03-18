@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: space-between;
 
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
@@ -25,23 +26,23 @@ display: flex;
 align-items: center;
 justify-content: center;
 animation-name: te;
-animation-duration: 55s;
-animation-timing-function:ease;
-animation-iteration-count:1;
-animation-delay:0s ;
+animation-duration: 35s;
+animation-timing-function:ease-in;
+animation-iteration-count:10;
+animation-delay:30s ;
 
 
 }
 .rasma > img{
     z-index: 5;
-    width: 117.14px;
-height: 117.14px;
+    width: 107.14px;
+height: 107.14px;
 position: absolute;
 animation-name: tet;
-animation-duration: 55s;
-animation-timing-function:ease;
-animation-iteration-count: 1;
-animation-delay:0s ;
+animation-duration: 35s;
+animation-timing-function:ease-in;
+animation-iteration-count: 10;
+animation-delay:30s ;
 
 border-radius: 100%;
 
@@ -69,7 +70,7 @@ border-radius: 100%;
     left: -51.34px;
 
 }
-/* @keyframes te{
+@keyframes te{
     0%{
         transform: rotate(0deg);
     }
@@ -85,7 +86,7 @@ border-radius: 100%;
     100%{
         transform: rotate(-360deg);
     }
-} */
+}
 
 
 
@@ -100,10 +101,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 animation-name: subrasm;
-animation-duration: 55s;
-animation-timing-function:ease;
-animation-iteration-count: 1;
-animation-delay:0s ;
+animation-duration: 35s;
+animation-timing-function:ease-in;
+animation-iteration-count: 10;
+animation-delay:30s ;
 
 }
 .rasm__sub > img{
@@ -111,13 +112,13 @@ animation-delay:0s ;
     width: 100.43px;
     height: 100.43px;
     animation-name: subimg;
-animation-duration: 55s;
-animation-timing-function:ease;
-animation-iteration-count: 1;
-animation-delay:0s ;
+animation-duration: 35s;
+animation-timing-function:ease-in;
+animation-iteration-count: 10;
+animation-delay:30s ;
 
 }
-/* @keyframes subrasm{
+@keyframes subrasm{
     0%{
         transform: rotate(0deg);
     }
@@ -132,7 +133,7 @@ animation-delay:0s ;
     100%{
         transform: rotate(360deg);
     }
-} */
+}
 .rasm__sub > img:nth-child(1){
    bottom: -20px;
    right: -20px;
