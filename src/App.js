@@ -6,6 +6,8 @@ import Ikki from "./ikki/ikki";
 import Rasm from "./rasm/rasm";
 import Text from "./TEXT/text";
 import Textcart from "./textcart/textcart";
+import Qizrasm from "./qizrasm/fff";
+import You from "./you/you";
 // ----------
 import Click from "./click/click";
 import Kub from "./kub/kub";
@@ -19,7 +21,8 @@ function App() {
     <Rasm/>
     <Text/>
     <Textcart/>
-
+<Qizrasm/>
+<You/>
 {/* sssssssssssss */}
 <Click/>
 <Kub/>

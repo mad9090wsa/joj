@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
+
+
+.ada{
+    margin-top: 100px;
+    /* background-color: red; */
+}
+.container{
+    margin: 0px auto;
+    width: 1040px;
+    display: flex;
+    gap: 200px;
+   }
+   .rasm{
+    position: relative;
+   }
+.rasmimg1{
+    width: 400px;
+height: 450px;
+
+}
+.cart{
+    z-index: 10px;
+    position: absolute;
+    bottom: -38px;
+    right: -81px;
+    width: 164px;
+   height: 130px;
+background: #FFFFFF;
+box-shadow: -4px 8px 20px rgba(24, 33, 109, 0.05);
+border-radius: 6px;
+padding: 17px 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 12px;
+}
+.cart > .div{
+    font-family: 'Inter';
+width: 125px;
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+color: #18216D;
+}
+.cart > .imgada{
+    width: 114px;
+height: 32px;
+}
+.cart > button{
+    position: absolute;
+    width: 100px;
+    bottom: 10px;
+height: 30px;
+border: none;
+    background: #DAE9FF;
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* blue */
+
+color: #005FEC;
+}
+.pu{
+    width: 122px;
+height: 118px;
+    z-index: -9;
+position: absolute;
+bottom: -32px;
+left: -71px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.subtext{
+    width: 496px;
+height: 96px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+color: #18216D;
+}
+.subtext2{
+ margin-top: 16px;
+    width: 446px;
+height: 90px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #18216D;
+}
+.ulcart{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.ulcart > li{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #18216D;
+display: flex;
+gap: 16px;
+}
+.ulcart > li>img{
+    width: 19.97px;
+height: 19.97px;
+}
+.text> button{
+    margin-top: 50px;
+    width: 164px;
+height: 54px;
+background: #005FEC;
+border-radius: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+border: none;
+color: #FFFFFF;
+}
+
+   @media(max-width:912px){
+    .ada{display:none;}
+}
