@@ -1,0 +1,157 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&family=Rubik:wght@300&display=swap');
+.ada{
+    margin-top: 70px;
+}
+.container{
+ margin: 0px auto;
+ width: 1040px;
+ display: flex;
+ justify-content: space-between;
+}
+.cart{
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+.cart > .img1{
+width: 72px;
+height: 72px;
+}
+.cart > .img2{
+    width: 55.58px;
+    height: 72px;
+}
+.cart > .img3{
+    width: 71.15px;
+    height: 72px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.text > div:nth-child(1){
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #18216D;
+}
+.text > div:nth-child(2){
+    width: 320px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #18216D;
+
+opacity: 0.6;
+}
+.bntcart{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 16px;
+color: #18216D;
+}
+.stop{
+    display: none;
+}
+@media(max-width:912px) and (min-width:863px){
+    .ada{
+        margin-top: 70px;
+    }
+    .container{
+     margin: 0px auto;
+     width: 85%;
+     display: flex;
+     justify-content: space-between;
+    }
+    .text > div:nth-child(2){
+        width: 280px;
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18216D;
+    
+    opacity: 0.6;
+    }
+}
+@media(max-width:375px){
+    .ada{
+        margin-top: 80px;
+    }
+    .container{
+     margin: 0px auto;
+     width: 85%;
+     display: flex;
+     gap: 60px;
+     flex-direction: column;
+     justify-content: space-between;
+    }
+    .cart{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       }
+    .cart > .img1{
+        width: 48px;
+        height: 48px;
+        }
+        .cart > .img2{
+            width: 37.05px;
+            height: 48px;
+        }
+        .cart > .img3{
+            width: 47.44px;
+            height: 48px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .text > div:nth-child(1){
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #18216D;
+        }
+        .text > div:nth-child(2){
+            width: 320px;
+            height: 72px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+            
+            
+            /* navy blue */
+            
+            color: #18216D;
+            
+            opacity: 0.6;
+        }
+        .bntcart{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 16px;
+            color: #18216D;
+        }
+        .stop{
+            display: block;
+            height: 100px;
+        }
+}
